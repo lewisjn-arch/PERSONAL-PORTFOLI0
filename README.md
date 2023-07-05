@@ -1,44 +1,5 @@
 <a name="readme-top"></a>
 
-<!--
-!!! IMPORTANT !!!
-This README is an example of how you could professionally present your codebase. 
-Writing documentation is a crucial part of your work as a professional software developer and cannot be ignored. 
-
-You should modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
-
-For more information on the importance of a professional README for your repositories: https://github.com/microverseinc/curriculum-transversal-skills/blob/main/documentation/articles/readme_best_practices.md
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
-
-<!-- TABLE OF CONTENTS -->
-
 # 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
@@ -47,8 +8,8 @@ For more information on the importance of a professional README for your reposit
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
   - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -58,41 +19,32 @@ For more information on the importance of a professional README for your reposit
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [Mobile-Portfolio-setup] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
 
-**[your_project__name]** is a...
+**Mobile-Portfolio-setup** is a html/css and JavaScript project that I have done to teach me how to design and build a simple portfolio website that is responsive.
 
-## 🛠 Built With <a name="built-with"></a>
+## 🛠 Built With 
+<a name="html"></a>
+<a name="CSS"></a>
+<a name="JavaScript"></a>
 
-### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
+
+### Tech Stack <a name="(FRONT-END)"></a>
+
 
 <details>
   <summary>Client</summary>
-  <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
+   <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">HTML</a></li>
   </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+   <ul>
+    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">CSS</a></li>
   </ul>
 </details>
 
@@ -100,141 +52,84 @@ For more information on the importance of a professional README for your reposit
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- **[Burger menu]**
+- **[Navigation bar]**
+- **[Page illustration]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
-
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://google.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
+ - Deployed using github pages.
+ - Here is the <a name="demo" href="https://lewisjn-arch.github.io/ArchLewisHinga.github.io">live demo link</a> of my website!Here is the <a name="demo" href="https://lewisjn-arch.github.io/ArchLewisHinga.github.io">live demo link</a> of my website!
+ - Here is a <a name="walkthrough" href="https://www.loom.com/share/7f86d12a781b4073a3293deca174eadb?sid=3caa8c71-6cac-45a8-bd02-b6b976b35d71">link</a> to the project walkthrough video on loom.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
+
+ You could make use of this project to train you how to use flexbox and style a portfolio page for your projects in html/css.
+
 
 To get a local copy up and running, follow these steps.
+
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+- [ ] Modern Web Browser(Google chrome)
+- [ ] IDE(VsCode)
 
 ### Setup
 
 Clone this repository to your desired folder:
+https://github.com/lewisjn-arch/Mobile-Portfolio-setup.git
 
-<!--
-Example commands:
-
-```sh
-  cd my-folder
-  git clone git@github.com:myaccount/my-project.git
-```
---->
 
 ### Install
 
 Install this project with:
-
-<!--
-Example command:
-
-```sh
-  cd my-project
-  gem install
-```
---->
+This project does not need installation. It automatically runs on the web browser.
 
 ### Usage
 
 To run the project, execute the following command:
-
-<!--
-Example command:
-
-```sh
-  rails server
-```
---->
+Open the index.html file with Live Server.
 
 ### Run tests
 
-To run tests, run the following command:
+Please run below command to run linter test
 
-<!--
-Example command:
-
-```sh
-  bin/rails test test/models/article_test.rb
 ```
---->
+npx hint .
+```
 
 ### Deployment
 
-You can deploy this project using:
+You can use any web platform like gh-pages for deployment.
 
-<!--
-Example:
+## 👥 Author <a name="author" href="https://github.com/lewisjn-arch">Lewis Hinga</a>
 
-```sh
 
-```
- -->
+👤 **Lewis Hinga**
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
+- GitHub: [@githubhandle](https://github.com/lewisjn-arch)
+- Twitter: [@twitterhandle](https://twitter.com/lhinga75)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lewis-hinga-b40a501b1/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
 
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+
+- [ ] **links to other pages on website**
+- [ ] **Javascript functionilty**
+- [ ] **Desktop responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -244,48 +139,25 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
-## ⭐️ Show your support <a name="support"></a>
+## ⭐️ Show your support <a name="support" href="https://github.com/lewisjn-arch">Github profile</a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project...
+If you like this project please like and share to your available networks and I would really appreciate it, Thanks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
+## 🙏 Acknowledgments <a name="acknowledgements">:Johnson Irungu</a>
 
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+I would like to thank Johnson Irungu because he has helped me understand and solve issues on where I was stuck.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- FAQ (optional) -->
 
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **[Question_1]**
-
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-_NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
