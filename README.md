@@ -23,10 +23,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Mobile-Portfolio-setup] <a name="about-project"></a>
+# 📖 [PERSONAL-PORTFOLIO] <a name="about-project"></a>
 
 
-**Mobile-Portfolio-setup** is a html/css and JavaScript project that I have done to teach me how to design and build a simple portfolio website that is responsive.
+**PERSONAL-PORTFOLIO** is a html/css and JavaScript project that I have done to teach me how to design and build a simple portfolio website that is responsive.
 
 ## 🛠 Built With 
 <a name="html"></a>
