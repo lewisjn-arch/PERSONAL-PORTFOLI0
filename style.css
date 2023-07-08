@@ -1,101 +1,99 @@
 *,
 ::before,
-::after
-{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .navigation {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3em;
-    background-color: #fff;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    padding: 0 24px;
-    z-index: 20;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3em;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 24px;
+  z-index: 20;
 }
 
 .burger_menu {
-    display: block;
-    width: 24px;
-    height: 16px;
+  display: block;
+  width: 24px;
+  height: 16px;
 }
 
 .bar {
-    display: block;
-    width: 24px;
-    height: 3px;
-    border-radius: 8px;
-    margin: 5px auto;
-    background-color: #000000;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+  display: block;
+  width: 24px;
+  height: 3px;
+  border-radius: 8px;
+  margin: 5px auto;
+  background-color: #000;
+  -webkit-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
 }
 
 .main_page {
-    position: relative;
-    top: 3em;
-    width: 100vw;
-    height: 100vh;
-    padding-top: 48px;
-    align-content: center;
-    background-image: url('Assets/Illustrations/headline illustration.png');
+  position: relative;
+  top: 3em;
+  width: 100vw;
+  height: 100vh;
+  padding-top: 48px;
+  align-content: center;
+  background-image: url('Assets/Illustrations/headline illustration.png');
+  background-repeat: no-repeat;
 }
 
 .identity {
-    font-family: 'Inter', sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 52px;
-    letter-spacing: 0.05em;
-    text-align: center;
-    padding: 20px;
-    width: 327px;
-    margin-top: 200px;
-    margin: auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  padding: 20px;
+  width: 327px;
+  margin: auto;
 }
 
 #intro {
-    color: #172B4D;
+  color: #172b4d;
 }
 
 #profession {
-    color: #36B37E;
+  color: #36b37e;
 }
 
 .pitch {
-    font-family: 'Inter', sans-serif;
-    font-size: 18.5px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: center;
-    width: 327px;
-    margin: auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 18.5px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0;
+  text-align: center;
+  width: 327px;
+  margin: auto;
 }
 
 .social_media {
-    list-style: none;
-    display: flex;
-    justify-content: center;;
-    margin: 24px auto;
-    margin-bottom: 50px;
-    align-items: baseline;
-    gap: 20px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 24px auto;
+  margin-bottom: 50px;
+  align-items: baseline;
+  gap: 20px;
 }
 
 .skip {
-    width: 40px;
-    height: 40px;
-    border: 2px solid #DFE1E6;
-    background-color: #fff;
-    border-radius: 50%;
-    margin-left: 45%;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #dfe1e6;
+  background-color: #fff;
+  border-radius: 50%;
+  margin-left: 45%;
 }
-
