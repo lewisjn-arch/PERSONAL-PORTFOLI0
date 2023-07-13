@@ -335,7 +335,7 @@
   color: #172b4d;
 }
 
-.contact_form {
+.contact-form {
   display: flex;
   flex-direction: column;
 }
